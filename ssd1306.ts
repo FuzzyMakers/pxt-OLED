@@ -1,4 +1,4 @@
-//% color=#27b0ba weight=100
+//% color=#10A581 weight=100
 namespace OLED {
     /**
          * initialises the i2c OLED display
