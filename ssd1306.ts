@@ -1,12 +1,12 @@
 //% color=#10A581 weight=100
 namespace OLED {
     /**
-         * initialises the i2c OLED display
-         * @param height height (in pixels)
-         * @param width width (in pixels)
+         * Inicializa disolay OLED
+         * @param height Altura (em pixels)
+         * @param width Largura (em pixels)
          */
         //% blockId=oled_init_terminal
-        //% block="initialize OLED with height %height|width %width"
+        //% block="Inicia tela OLED altura %height|largura %width"
         //% icon="\uf1ec"
         //% shim=OLED::init_terminal
         //% weight=90
@@ -16,10 +16,10 @@ namespace OLED {
         }
   
         /**
-         * clears the screen.
+         * Limpa a tela OLED
          */
         //% blockId=oled_clear_screen
-        //% block="clear OLED display"
+        //% block="Limpa OLED Display"
         //% icon="\uf1ec"
         //% shim=OLED::clearDisplay
         export function clear(): void {
@@ -27,11 +27,11 @@ namespace OLED {
         }
   
         /**
-         * prints a string on the OLED display
-         * @param text text to display
+         * Escreve uma mensagem de texto
+         * @param text digite texto aqui
          */
         //% weight=87
-        //% block="show OLED string %text"
+        //% block="Mostrar string %text"
         //% async
         //% blockId=oled_print_string
         //% icon="\uf1ec"
@@ -44,12 +44,12 @@ namespace OLED {
         }
   
         /**
-         * prints a number on the OLED display
-         * @param number number to display
+         * Mostra mensagens em numeros
+         * @param number numeros na tela
          */
         //% weight=80
         //% blockId=oled_print_number
-        //% block="show OLED number %number"
+        //% block="Mostrar numero %number"
         //% async
         //% shim=OLED::showNumber
         export function showNumber(number: number): void {
