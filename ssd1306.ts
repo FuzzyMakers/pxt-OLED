@@ -1,4 +1,4 @@
-//% color=#10A581 weight=100
+//% color=#10A581 weight=100 icon="\f26c"
 namespace OLED {
     /**
          * Inicializa disolay OLED
